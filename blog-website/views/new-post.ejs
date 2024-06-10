@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Post</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>My Blog</h1>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/compose">Compose New Post</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="main-content">
+      <h1>Compose New Post</h1>
+      <form action="/compose" method="post">
+        <input type="text" name="postTitle" placeholder="Title" required>
+        <textarea name="postContent" placeholder="Content" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 My Blog</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= post.title %></title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>My Blog</h1>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/compose">Compose New Post</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="main-content">
+      <h1><%= post.title %></h1>
+      <p><%= post.content %></p>
+      <a href="/">Back to Home</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 My Blog</p>
+  </footer>
+</body>
+</html>

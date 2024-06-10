@@ -1,0 +1,126 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #77aaff 3px solid;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #77aaff;
+}
+
+.main-content {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.post h2 {
+  margin: 0;
+}
+
+.post p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+form input[type="text"], form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
