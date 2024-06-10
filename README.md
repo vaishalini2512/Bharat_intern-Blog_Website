@@ -61,8 +61,9 @@ Ensure MongoDB is running on your local machine. You can start MongoDB with:
   http://localhost:3000
   ```
 
-##Project Structure
+## Project Structure
 
+```sh
 blog-website/
 ├── models/
 │   └── post.js
@@ -75,16 +76,17 @@ blog-website/
 │   └── post.ejs
 ├── app.js
 └── package.json
+```
 
-##Usage
-###Home Page
+## Usage
+### Home Page
 The home page displays a list of all blog posts. You can click on a post title to view the full content of the post.
 
-###Compose New Post
+### Compose New Post
 To compose a new post, click on the "Compose New Post" link in the navigation bar. Fill in the title and content of your post, then submit the form. You will be redirected back to the home page where your new post will be listed.
 
-###View Post
+### View Post
 Click on a post title on the home page to view the full content of the post.
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
