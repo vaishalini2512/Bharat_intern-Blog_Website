@@ -35,7 +35,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/blog-website.git
+   git clone https://github.com/vaishalini2512/Bharat_intern-Blog_Website
    cd blog-website
    ```
 2. Install the dependencies:
